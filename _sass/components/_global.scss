@@ -32,3 +32,21 @@
       }
     }
   }
+
+// Site max-width container
+.max-width {
+  max-width: $maxWidth;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// Content max-width container
+.constrain {
+  max-width: $contentWidth;
+  margin: 0 auto;
+  padding: ($gapLarge / 3) $gap;
+
+  @media screen and (min-width: $medium) {
+    padding: ($gapLarge / 2) $gap;
+  }
+}
