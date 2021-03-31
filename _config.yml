@@ -22,7 +22,7 @@ title: Switchboard
 email: schafeandrew@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Switchboard is the relationhip tool that the internet has promised but never delivered.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/brand-website" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: switchboard
 github_username:  switchboardco
