@@ -33,6 +33,24 @@
 }
 
 .about-member-image {
+    margin: auto;
+    width: 80%;
+
     border-radius: 50%;
+
+    @media screen and (min-width: $medium) {
+        width: 30%;
+    }
+}
+
+.about-divider {
+    margin-top: $gapLarge;
+    width: 90%;
+
+    border: 1px solid $colorSecondary;
+
+    @media screen and (min-width: $medium) {
+        width: 75%;
+    }
 }
 
