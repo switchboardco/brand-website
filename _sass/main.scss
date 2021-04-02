@@ -8,7 +8,10 @@
 @import 'components/_normalize';
 
 // Components
-@import 'components/_global';
-@import 'components/_nav';
+@import 'components/global';
+@import 'components/nav';
 @import 'components/typography';
+
+// Pages
+@import 'pages/about'
 

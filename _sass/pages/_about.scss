@@ -1,0 +1,38 @@
+.about-member-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+    padding: $gapLarge $gap;
+
+    @media screen and (min-width: $medium) {
+        padding: $gapLarge;
+    }
+}
+
+.about-member-container-reverse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row-reverse wrap;
+
+    padding: $gapLarge $gap;
+
+    @media screen and (min-width: $medium) {
+        padding: $gapLarge;
+    }
+}
+
+.about-member-text {
+
+    @media screen and (min-width: $medium) {
+        width: 50%;
+    }
+
+}
+
+.about-member-image {
+    border-radius: 50%;
+}
+
