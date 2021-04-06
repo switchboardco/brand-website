@@ -58,17 +58,19 @@ $weightBold: bold;
 $black: #2b2537;
 $white: #fff;
 $gray: #707575;
-$colorPrimary: #FC7370;
+$colorPrimary: #074734;
 $colorPrimaryAlt: #0073e6;
-$colorSecondary: #FB423E;
+$colorSecondary: #006648;
 $colorSecondaryAlt: #5cadff;
 $colorTertiary: #f7f7f7;
-$colorAccent: #70F9Fc;
+$colorAccent: #b3365b;
 $transparentWhite: #ffffff50;
 
 // Measurements based on design grid
 $maxWidth: 1400px; // If I choose to give body a border
 $contentWidth: 1172px; // Content width includes content padding
+$dividerLength: 150px;
+$dividerLengthLarge: 300px;
 
 // Spacing
 // The $gap value is your base value. $gapLarge is merely ($gap * 4), but is given its own variable for more straightforward usage.
@@ -84,5 +86,3 @@ $gapLarge: 60px;
 
 // Border radius
 $radiusBtn: 3px;
-$radiusTile: 5px;
-$radiusTilex: 10px;

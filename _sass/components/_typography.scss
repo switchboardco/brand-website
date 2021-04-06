@@ -17,6 +17,7 @@
     font-size: $textH1;
     letter-spacing: $letterspaceWide;
     line-height: $lineHeightXwide;
+    text-align: center;
   
     @media screen and (min-width: $medium) {
       font-size: $textH1x;
