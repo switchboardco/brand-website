@@ -1,8 +1,65 @@
-.current-link {
-    color: $colorAccent;
+nav {
+    background-color: $colorPrimary;
 }
-
-.header-nav {
+.nav-header {
     display: flex;
     justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+
+    @media screen and (min-width: $medium) {
+        flex-direction: row;
+    }
 }
+
+.current-link {
+    @media screen and (min-width: $medium) {
+        border-bottom: 3px solid $colorAccent;
+    }
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+
+    list-style: none;
+
+    @media screen and (min-width: $medium) {
+        flex-direction: row;
+    }
+    @media screen and (max-width: $medium) {
+        margin: 0;
+        padding: 0;
+        
+        width: 100%;
+    }
+
+}
+
+.nav-links a {
+    display: block;
+    padding: $gap/1.5;
+    text-align: center;
+
+    @media screen and (max-width: $medium) {
+        border-top: 1px solid $gray;
+        border-bottom: 1px solid $black; 
+
+        li:last-of-type {
+            border-bottom: none;
+        }
+    }
+    @media screen and (min-width: $medium) {
+        margin: 0 $gap;
+    }
+}
+
+.nav-links a:hover {
+    background-color: $colorSecondary;
+}
+
