@@ -11,7 +11,8 @@ permalink: /about
         <div class="{% cycle 'about-member-container', 'about-member-container-reverse' %}">
             <img src="/assets/images/{{item.image-url}}" class="about-member-image" alt="Profile photo">
             <div class="about-member-text">
-                <h2>{{ item.name }}</h2>
+                <h2 class="about-member-name">{{ item.name }}</h2>
+                <div class="about-member-job">{{ item.job }}</div>
                 <p>{{ item.description }}</p>
             </div>
         </div>

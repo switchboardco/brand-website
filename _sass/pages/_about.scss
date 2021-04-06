@@ -32,17 +32,7 @@
 
 }
 
-.about-member-image {
-    margin: auto;
-    width: 80%;
 
-    border-radius: 50%;
-    border: 5px solid $colorPrimary;
-
-    @media screen and (min-width: $medium) {
-        width: 30%;
-    }
-}
 
 .about-divider {
     margin-top: $gapLarge;
@@ -61,5 +51,28 @@
 
     @media screen and (min-width: $medium) {
         width: 75%;
+    }
+}
+
+.about-member-name {
+    padding-bottom: $gap/2;
+}
+
+.about-member-job {
+    padding-bottom: $gap;
+
+    color: $colorAccent;
+    font-size: $textMedium;
+}
+
+.about-member-image {
+    margin: auto;
+    width: 80%;
+
+    border-radius: 50%;
+    border: 5px solid $colorPrimary;
+
+    @media screen and (min-width: $medium) {
+        width: 30%;
     }
 }
