@@ -1,0 +1,21 @@
+<section>
+    {% if include.flipped %}
+        <div class="cta-2-col-wrap cta-2-col-flipped">
+    {% else %}
+	    <div class="cta-2-col-wrap ">
+    {% endif %}
+		<div class="cta-2-col-image">
+			<!-- include.img url -->
+            <!-- max width 770px -->
+            {% if include.img %}
+                <img src="/assets/images/{{ include.img }}" />
+            {% else %}
+                <img src="http://placecorgi.com/600/600" />
+            {% endif %}
+		</div>
+		<div class="cta-2-col-text">
+			<h2 class="cta-2-col-title">{{ include.title }}</h2>
+			<div>{{ include.description }}</div>
+		</div>
+	</div>
+</section>
