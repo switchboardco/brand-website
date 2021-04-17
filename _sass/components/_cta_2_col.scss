@@ -32,7 +32,7 @@
     }
 }
   
-  .cta-2-col-text {
+.cta-2-col-text {
     flex: 1 1 0px;
     padding: ($gap * 2);
     text-align: center;
@@ -42,4 +42,8 @@
         padding: ($gap * 2) $gapLarge;
     }
   
+}
+
+.cta-2-col-desc {
+    padding-bottom: $gap;
 }

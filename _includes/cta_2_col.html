@@ -15,7 +15,10 @@
 		</div>
 		<div class="cta-2-col-text">
 			<h2 class="cta-2-col-title">{{ include.title }}</h2>
-			<div>{{ include.description }}</div>
+			<div class="cta-2-col-desc">{{ include.description }}</div>
+            {% if include.cta_link %}
+                <a class="button" href="{{ include.cta_link }}">{{ include.cta_text }}</a>
+            {% endif %}
 		</div>
 	</div>
 </section>
