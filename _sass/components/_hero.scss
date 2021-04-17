@@ -1,0 +1,23 @@
+.hero-container {
+    padding-bottom: $gap*2;
+    position: relative;
+}
+.hero-banner {
+    padding: ($gapLarge / 2) $gap $gap;
+    background: $white;
+    top: 50%;
+    left: 50%;
+  
+    @media screen and (min-width: $large) {
+      position: absolute;
+      padding: ($gapLarge / 1.5) ($gap*2) ($gapLarge / 2);
+      margin-right: 100px;
+      opacity: 80%;
+      right: 0%;
+      transform: translate(0, -50%);
+      width: $heroBannerWidth;
+    }
+}
+.hero-image {
+    width: 100%;
+}

@@ -1,0 +1,49 @@
+.cta-2-col-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+    &.cta-2-col-flipped {
+        flex-flow: row-reverse wrap;
+    }
+  
+    // Provides better responsive image fit
+    @supports (object-fit: cover) {
+      align-items: stretch;
+    }
+}
+  
+.cta-2-col-image {
+    flex: 0 1 auto;
+    width: 100%;
+    padding-bottom: ($gapLarge / 3);
+  
+    @media screen and (min-width: $medium) {
+      padding: 0;
+      width: (100% / 2);
+    }
+  
+    @supports (object-fit: cover) {
+        & img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+  
+.cta-2-col-text {
+    flex: 1 1 0px;
+    padding: ($gap * 2);
+    text-align: center;
+    align-self: center;
+  
+    @media screen and (min-width: $large) {
+        padding: ($gap * 2) $gapLarge;
+    }
+  
+}
+
+.cta-2-col-desc {
+    padding-bottom: $gap;
+}

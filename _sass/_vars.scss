@@ -71,6 +71,7 @@ $maxWidth: 1400px; // If I choose to give body a border
 $contentWidth: 1172px; // Content width includes content padding
 $dividerLength: 150px;
 $dividerLengthLarge: 300px;
+$heroBannerWidth: 350px;
 
 // Spacing
 // The $gap value is your base value. $gapLarge is merely ($gap * 4), but is given its own variable for more straightforward usage.
@@ -86,3 +87,6 @@ $gapLarge: 60px;
 
 // Border radius
 $radiusBtn: 3px;
+
+// Speeds
+$speedFast: 250ms;

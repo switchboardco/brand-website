@@ -44,9 +44,9 @@
 .constrain {
   max-width: $contentWidth;
   margin: 0 auto;
-  padding: ($gapLarge / 3) $gap;
+  padding: 0 $gap;
 
   @media screen and (min-width: $medium) {
-    padding: ($gapLarge / 2) $gap;
+    padding: 0 $gap;
   }
 }
